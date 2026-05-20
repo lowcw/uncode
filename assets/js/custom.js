@@ -66,7 +66,7 @@ var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
         },
     },
     768: { // Tablet
-      slidesPerView: 2,
+      slidesPerView: 5.5,
       spaceBetween: 20,
       freeMode: true,
       centeredSlides: true,
@@ -76,10 +76,10 @@ var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
         },
     },
     1024: { // Desktop
-      slidesPerView: 3.5,
+      slidesPerView: 5.5,
       spaceBetween: 20,
       freeMode: true,
-      centeredSlides: true
+      centeredSlides: true,
     }
   }
 
