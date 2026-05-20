@@ -24,8 +24,8 @@
               
             <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
 
-            </div> 
-          </div>
+      </div> 
+    </div>
             
-          </nav>
+  </nav>
 </div>
