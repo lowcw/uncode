@@ -1,0 +1,147 @@
+
+var swiper = new Swiper(".mySwiper", {
+  loop: true,
+  slidesPerView:3.5,
+  spaceBetween: 20,
+  freeMode: true,
+  centeredSlides: true,
+  freeModeMomentum: false,
+
+  navigation: {
+          nextEl: ".swiper-button-next-custom",
+          prevEl: ".swiper-button-prev-custom",
+        },
+         // Responsive breakpoints
+  breakpoints: {
+    320: {  // Mobile
+      slidesPerView: 1,
+      spaceBetween: 10,
+      freeMode: false,       // optional: make snap scroll
+      centeredSlides: false, // optional: show full slide
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    768: { // Tablet
+      slidesPerView: 2,
+      spaceBetween: 20,
+      freeMode: true,
+      centeredSlides: true,
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    1024: { // Desktop
+      slidesPerView: 3.5,
+      spaceBetween: 20,
+      freeMode: true,
+      centeredSlides: true
+    }
+  }
+});
+var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
+  loop: true,
+  slidesPerView:5.5,
+  spaceBetween: 20,
+  freeMode: true,
+  centeredSlides: true,
+  freeModeMomentum: false,
+
+  navigation: {
+          nextEl: ".swiper-button-next-custom",
+          prevEl: ".swiper-button-prev-custom",
+        },
+                 // Responsive breakpoints
+  breakpoints: {
+    320: {  // Mobile
+      slidesPerView: 2,
+      spaceBetween: 10,
+      freeMode: false,       // optional: make snap scroll
+      centeredSlides: false, // optional: show full slide
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    768: { // Tablet
+      slidesPerView: 2,
+      spaceBetween: 20,
+      freeMode: true,
+      centeredSlides: true,
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    1024: { // Desktop
+      slidesPerView: 3.5,
+      spaceBetween: 20,
+      freeMode: true,
+      centeredSlides: true
+    }
+  }
+
+});
+
+  var swiper = new Swiper(".this_swiper", {
+    direction: "vertical",
+    slidesPerView: 1,
+    grabCursor: true,
+     mousewheel: true,
+        mousewheel: { releaseOnEdges: true 
+    }// <-- allows scrolling to page after last slide },
+  });
+let prevScroll = window.pageYOffset;
+let navbar = document.getElementById("navbar_head");
+
+window.onscroll = function () {
+
+    let currentScroll = window.pageYOffset;
+    // Only apply on desktop (example: width >= 768px)
+    if (window.innerWidth > 768) {
+    // change background
+        if (window.scrollY > 100) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        } 
+        // hide when scroll down
+        if (currentScroll > prevScroll) {
+            navbar.style.top = "-200px";
+        } 
+        // show when scroll up
+        else {
+            navbar.style.top = "0";
+        }
+    }else{
+        
+        if (window.scrollY > 100) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        } 
+        navbar.style.top = "0";
+    }
+
+    prevScroll = currentScroll;
+
+    
+};
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    const collapseEl = document.getElementById('collapseExample0');
+    const button = document.querySelector('.trigger-more');
+
+    collapseEl.addEventListener('shown.bs.collapse', function () {
+        button.textContent = 'Close Section';
+    });
+
+    collapseEl.addEventListener('hidden.bs.collapse', function () {
+        button.textContent = 'Open Section';
+    });
+
+});

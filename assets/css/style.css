@@ -1,0 +1,208 @@
+
+h2,h6{
+    line-height: 1.5;
+    font-weight: 500;
+}
+h1{
+    font-size: clamp(4rem ,17vw ,20rem);
+}
+
+h2{
+    font-size: clamp(1.5rem, 3vw ,2.5rem);
+}
+h3{
+    font-size:clamp(1rem, 3vw ,1.8rem);
+    font-weight: 400;
+    line-height: 1.5;
+}
+h4{
+    font-size:clamp(1.3rem, 2vw, 1.1rem);
+}
+h6{
+    font-size: clamp(1rem, 3vw, 14px);
+}
+
+p{
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    line-height: 1.5;
+    font-weight: 300;
+}
+@media (min-width:787px) {
+    section, .spacing{
+    padding: 150px 0px;
+}
+}
+/* Hover + Active */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 3.5)
+}
+.text-c-white{
+  color: #FFFFFF;
+}
+.text-c-grey{
+  color:#777 !important;
+}
+button, a{
+    font-size: clamp(1.1rem, 2vw, 1.1rem);
+}
+.open_section,
+.open_section:hover{
+    line-height: 2;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: underline 3px;
+    text-underline-offset: 6px;         /* Adds space between text and underline */
+}
+.card-bg {
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  transition: color 0.3s ease;
+   opacity: 1   ;
+}
+  .this_swiper {
+    height: 100vh; /* Full screen height */
+  }
+  .this_swiper_slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fill the screen nicely */
+  }
+  @media (max-width:768px) {
+  .this_swiper {
+    height: 50vh; /* Full screen height */
+  }
+    
+  }
+.swiper-slide img {
+  margin-bottom: 1em;
+}
+  @media (max-width:768px) {
+  .this_swiper {
+    height: 50vh; /* Full screen height */
+  }
+}
+@media (max-width:768px) {
+    .swiper-slide{
+    margin: 10px !important;
+    margin-right:0px !important;
+    }
+    .this_swiper_slide{
+        margin: 0px !important;
+    }
+}
+.swiper-pagination-bullet-active {
+  width: 40px;       /* active bullet is longer */
+  height: 6px;
+  border-radius: 5px;
+  background: #636668; /* active color */
+  opacity: 1;
+}
+#navbar_head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    background: transparent;
+
+    transition: top 0.4s ease,
+                background-color 0.4s ease;
+
+    padding: 10px 0;
+}
+/* White background when scrolling */
+#navbar_head.scrolled{
+    background: rgba(255,255,255,1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.banner{
+    background-image: url('../img/bg-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.testimonial img{
+  width: 100% ;       /* Spans the full width of the container */
+  height: 100% ;
+  display: block;
+   object-fit: cover;
+}
+.person-img{
+         width: 30% !important
+    }
+@media (max-width:768px) {
+    .person-img{
+         width: 20% !important
+    }
+    
+}
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+/* first row, first column */
+.testimonial:nth-child(1) {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+}
+
+/* first row, second column (taller) */
+.testimonial:nth-child(2) {
+    grid-column: 3;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+}
+
+/* second row, first column (same height as B) */
+.testimonial:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* second row, second column (shorter) */
+.testimonial:nth-child(4) {
+    grid-column: 4;
+    grid-row: 1 / span 3;
+}
+.testimonial:nth-child(5) {
+    grid-column: 4;
+    grid-row: 4;
+}
+/* Responsive: mobile stacked layout */
+@media (max-width: 768px) {
+  .testimonial-grid {
+    display: block; /* stack items vertically */
+  }
+
+  .testimonial {
+    width: 100%;
+    margin-bottom: 2rem; /* spacing between items */
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+  .empty-space{
+    padding: 10px !important;
+  }
+}
+@media (min-width: 768px) {
+.empty-space{
+    padding: 70px !important;
+}
+}
+
+footer {
+    color:#FFFFFF;
+}
+
+.nav, .footer_nav{
+    color: #FFFFFF;
+    margin-bottom: 0.5em;
+}
