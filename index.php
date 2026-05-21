@@ -14,17 +14,14 @@
 <body>
     <?php include('header.php'); ?>
 
-<section class="banner d-flex align-items-end min-vh-100 mb-5 py-0">
-  <div class="container-fluid d-flex justify-content-center">
-      <div class="row">
-        <div class="col">
-          <h1 class="text-white">Pure Nordic</h1>
-        </div>
-      </div>
+<section class="banner d-flex justify-content-center align-items-end min-vh-100 py-0">
+  <div class="text-center">
+    <h1 class="text-white">Pure Nordic</h1>
   </div>
 </section>
-<section class="d-flex align-items-end min-vh-50 mb-5 mx-0 mx-md-5">
-  <div class="container d-flex justify-content-center">
+</section>
+<section class="">
+  <div class="container min-vh-50">
       <div class="row">
         <div class="col text-center">
           <h2 class="">Discover a curated world of elegance and innovation, where you can shop for premium design products that elevate your lifestyle</h2>
@@ -32,20 +29,20 @@
       </div>
   </div>
 </section>
-      <section class=" d-flex align-items-end border-top mx-2 mx-lg-5">
-    <div class="container-fluid d-flex justify-content-center mx-0 mx-lg-5 my-lg-0 my-5">
-    <div class="testimonial-grid">
+  <section class="border-top">
+    <div class="container-fluid">
+    <div class="testimonial-grid mx-2 mx-md-5">
         <article class="testimonial d-lg-block d-none">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="img-fluid mw-100 mh-100">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" 
+            alt="" class="img-fluid vh-100">
          </article> 
           
-          <article class="testimonial d-flex flex-column justify-content-between bg-light p-4 p-md-5">
+          <article class="testimonial d-flex flex-column justify-content-between bg-light p-4 p-md-5 gap-5">
           <div class="top-start">
             <h3>
               Timeless, and stylish furniture pieces, meticulously crafted to infuse spaces with serene simplicity and lasting elegance
             </h3>
           </div>
-          <div class="empty-space empty-single"></div>
           <div class="bottom-end">
             <a href="#" class="link-offset-3 text-black">
               Our Manifesto →
@@ -53,142 +50,112 @@
           </div>
         </article>
           <article class="testimonial">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="img-fluid mw-100 mh-100">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" 
+            class="img-fluid">
           </article>
   
-          <article class="testimonial bg-light d-flex flex-column justify-content-between p-md-5 p-4 mw-100 mh-100">
+          <article class="testimonial bg-light d-flex flex-column justify-content-between p-md-5 p-4 gap-5">
             <div class="top-start">
               <img 
                 src="assets/img/person.jpg" class="mb-3 person-img rounded-circle" alt="User Avatar">
             </div>
-            <div class="bottom-end pt-lg-0 pt-5">
+            <div class="bottom-end">
               <h4>Donald Woodring</h4>
               <p class="text-c-grey">Lead Designer, Pure Nordic</p>
             </div>
           </article>
           <article class="testimonial">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="img-fluid mw-100 mh-100">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt=""
+             class="img-fluid">
           </article>
         </div>
 
       </div>
     </div>
   </section>  
-<section class="border-top vh-100 d-flex align-items-center">
+
+<section class="border-top">
   <div class="container-fluid">
-    <div class="row mb-0 mx-2 pt-0 mb-md-5 mx-md-5 pt-md-5">
+    <div class="row align-items-center mx-2 m-3 m-md-5 ">
       <div class="col-12 col-md-6 ">
         <h2>Our hand-picked essentials</h2>
       </div>
       <div class="col-6 d-flex justify-content-end gap-2">
-        <div class=" d-lg-block d-none">
-        <button class="btn btn-lg text-black swiper-button-prev-custom " style="font-size: 3em;">&#8592;</button>
-        <button class="btn btn-lg text-black swiper-button-next-custom" style="font-size: 3em;">&#8594;</button>
+        <div class=" d-sm-block d-none">
+        <button class="btn btn-lg text-black swiper-button-prev-custom " style="font-size: 3em !important;">&#8592;</button>
+        <button class="btn btn-lg text-black swiper-button-next-custom" style="font-size: 3em !important;">&#8594;</button>
       </div>
       </div>  
     </div>
   
-  <div class="container-fluid d-flex align-items-center justify-content-center">
 
-
-    <div class="swiper mySwiper my-5">
+    <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-0 px-md-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
+        <div class="swiper-slide ">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
             </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-       <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
             </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
             </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
             </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
-            </div>
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
           </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
-            </div>
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
           </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
-            </div>
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
           </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
-        <div class="swiper-slide mx-md-2">
-          <div class="row card-bg d-flex align-items-center px-3">
-            <div class="col-12">
-                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100">
-            </div>
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
           </div>
-          <div class="row mt-5">
-            <div class="col">
-                 <h4>Bekväm $200 </h4>
-            </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
           </div>
         </div>
+        
       </div>
       <div class="my-4 px-2">
           <div class="swiper-pagination position-relative d-flex justify-content-start">
@@ -265,139 +232,176 @@
 
 <section class="border-top">
   <div class="container-fluid">
-    <div class="row mb-0 mx-2 pt-5 mb-md-5 mx-md-5 pt-md-5">
+    <div class="row align-items-center mx-2 m-3 m-md-5 ">
       <div class="col-12 col-md-6 ">
         <h2 class="fw-bold">Discover design categories</h2>
       </div>
       <div class="col-6 d-flex justify-content-end gap-2">
-        <div class=" d-lg-block d-none">
-        <button class="btn btn-lg text-black swiper-button-prev-custom " style="font-size: 3em;">&#8592;</button>
-        <button class="btn btn-lg text-black swiper-button-next-custom" style="font-size: 3em;">&#8594;</button>
+        <div class=" d-sm-block d-none">
+        <button class="btn btn-lg text-black swiper-button-prev-custom " style="font-size: 3em !important;">&#8592;</button>
+        <button class="btn btn-lg text-black swiper-button-next-custom" style="font-size: 3em !important;">&#8594;</button>
       </div>
       </div>  
     </div>
 
-    <div class="swiper my_sec_Swiper mx-0">
+    <div class="swiper my_sec_Swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-              <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-              <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-              <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-             <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-             <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-            <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-           <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-            <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-            <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-            <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="row row-col">
-            <img src="assets/img/tt.jpg" alt="">
-            <h4>Bekväm $200 </h4>
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="sec_Swiper ">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <div class="ps-3 mt-3">
+              <h4>Bekväm $200</h4>
+            </div>
           </div>
         </div>
       </div>
        <div class="my-4 px-2">
           <div class="swiper-pagination position-relative d-flex justify-content-start">
-          </div>
+        </div>
     </div>
 </div>
 </section>
-<section class="my-5 border-top">
+
+<section class="border-top">
   <div class="container-fluid">
     <div class="row mx-md-5 mx-1">
-      <div class="col-12 col-md-6">
-        <div class="container d-flex flex-column justify-content-between p-md-3 pt-3 h-100 w-100">
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-between gap-5">
           <div class="top-start">
-              <div>
+            <div>
                 <h6 class="text-c-grey my-3 mb-md-4">News & Updates</h6>
               </div>
               <div>
-                <h3 class="text-black mb-3 mb-md-4 fw-bold w-75">Explore our blog for insights on Nordic design, sustainable living, and tips to elevate your space with our style</h3>
+                <h3 class="text-black mb-3 mb-md-4 fw-bold ">Explore our blog for insights on Nordic design, sustainable living, and tips to elevate your space with our style</h3>
               </div>
               <div class="my-5 mb-md-5">
                 <a href="#" class="link-offset-3 text-black">
                 Visit the Blog →
               </a>
               </div>
-              
           </div>
-          <div class="empty-space empty-single"></div>
-          <div class="bottom-end pt-lg-5">
+          <div class="bottom-end">
             <div class="row">
               <div class="col-12 col-md-6">
                 <h6 class="text-black mb-3 mb-md-3">25.03.2025</h6>
                 <div class="pe-0 pe-md-5">
                 
                 <a href="#" class="text-black text-decoration-none fw-bold mb-4 mb-md-0">5 Ways to Incorporate Sustainable Furniture into Your Home</a>
-                <p class="text-c-grey my-3 my-md-3">When you are alone for days or weeks at a time, you eventually become drawn to…</p>
+                <p class="text-c-grey my-3 my-md-2">When you are alone for days or weeks at a time, you eventually become drawn to…</p>
                 </div>
                 
               </div>
-              <div class="col-12 col-md-6 gap-5">
+              <div class="col-12 col-md-6 gap-5 pt-5 pt-md-0">
                 <h6 class="text-black mb-3 mb-md-3">25.03.2025</h6>
                 <div class="pe-0 pe-md-5">
                    
                 <a href="#" class="text-black text-decoration-none fw-bold mb-4 mb-md-0">The Art of Minimalist Living with Nordic Design Furnitures and Ideas</a>
-                <p class="text-c-grey my-3  my-md-3">When you are alone for days or weeks at a time, you eventually become drawn to…</p>
+                <p class="text-c-grey my-3  my-md-2">When you are alone for days or weeks at a time, you eventually become drawn to…</p>
                 </div>
                
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-12 col-md-6 pt-5 ">
-        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="src w-100 h-100">
+      
+      <div class="col-12 col-md-6 pt-3 pt-md-0">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" 
+        class="img-fluid full-img">
       </div>
     </div>
   </div>
@@ -406,6 +410,7 @@
 <?php include('footer.php'); ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="assets/js/custom.js"></script>
 </body>
 </html>

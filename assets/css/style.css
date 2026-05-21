@@ -1,7 +1,7 @@
 
 h2,h6{
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 700;
 }
 h1{
     font-size: clamp(4rem ,17vw ,20rem);
@@ -21,44 +21,128 @@ h4{
 h6{
     font-size: clamp(1rem, 3vw, 14px);
 }
-
+button, a{
+    font-size: clamp(1.1rem, 2vw, 1rem) !important;
+    font-weight: 500 !important;
+}
+button{
+    font-size: clamp(1.1rem, 2vw, 1rem) ;
+    font-weight: 500;
+}
 p{
     font-size: clamp(1rem, 2vw, 1.1rem);
     line-height: 1.5;
     font-weight: 300;
 }
-@media (min-width:787px) {
+@media (max-width:767px) {
     section, .spacing{
-    padding: 150px 0px;
+    padding: 80px 0px !important;
 }
 }
-/* Hover + Active */
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link.active {
-  transform: scale(1.2);       /* subtle grow effect */
-  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5)); /* shadow effect */
+section, .spacing{
+  padding: 150px 0px;
 }
-.navbar-nav .nav-link svg,
-.navbar-nav .nav-link {
-  fill: #ffffff;              /* normal color */
-  transition: transform 0.2s, filter 0.2s;
+/*--------------------- header ---------------------*/
+/* Logo default size */
+#main-logo svg {
+    width: clamp(2em, 3vw, 2em); /* scales with viewport */
+    height: auto;                     /* maintain aspect ratio */
+    display: block;
+}
+/* Navbar default (at top) */
+#navbar_head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: transparent;
+    padding: 10px 0;
+    transition: top 0.4s ease, background-color 0.4s ease, color 0.4s ease;
 }
 
-.navbar-nav .nav-link svg:hover,
-.navbar-nav .nav-link svg.active {
-  transform: scale(1.2);       /* subtle grow effect */
-  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5)); /* shadow effect */
+/* Nav links and icons at top */
+.navbar-nav .nav-link,
+.navbar-nav .header_nav {
+    color: #ffffff;        /* white at top */
+    transition: color 0.3s;
 }
-.text-c-white , .header_nav{
+
+.navbar-nav .nav-link svg,
+#main-logo svg path {
+    fill: #ffffff;          /* icons white at top */
+    transition: fill 0.3s, transform 0.2s, filter 0.2s;
+}
+@media (max-width:768px) {
+  /* Nav links and icons at top */
+.navbar-nav .nav-link,
+.navbar-nav .header_nav {
+    color: #000000;        /* white at top */
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link svg {
+    fill: #000000;          /* icons white at top */
+    transition: fill 0.3s, transform 0.2s, filter 0.2s;
+}
+}
+/* Scrolled state */
+#navbar_head.scrolled {
+    background: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Nav links and icons when scrolled */
+#navbar_head.scrolled .navbar-nav .nav-link,
+#navbar_head.scrolled .navbar-nav .header_nav {
+    color: black;          /* text black when scrolled */
+}
+
+#navbar_head.scrolled .navbar-nav .nav-link svg,
+#navbar_head.scrolled #main-logo svg path {
+    fill: black;           /* icons black when scrolled */
+}
+
+/* Hover / active */
+.navbar-nav .nav-link svg:hover,
+.navbar-nav .nav-link svg.active,
+.navbar-nav .header_nav:hover,
+.navbar-nav .header_nav.active {
+    transform: scale(1.2);
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
+}
+.mobile-menu-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center lines vertically */
+  align-items: center;
+  cursor: pointer;
+}
+
+.mobile-menu-button .lines span {
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;          
+  background-color: #fff;  
+  display: block;
+  transition: background-color 0.3s;
+}
+
+/* Optional: change color on scroll */
+#navbar_head.scrolled .mobile-menu-button .lines span {
+  background-color: #000;
+}
+/*--------------------- header ---------------------*/
+
+.text-c-white {
   color: #FFFFFF;
 }
 .text-c-grey{
   color:#777 !important;
 }
-button, a{
-    font-size: clamp(1.1rem, 2vw, 1.1rem);
-    font-weight: 500 !important;
-}
+
 .open_section,
 .open_section:hover{
     line-height: 2;
@@ -66,16 +150,32 @@ button, a{
     text-decoration: underline 3px;
     text-underline-offset: 6px;         /* Adds space between text and underline */
 }
+/*     swiper    */
 .card-bg {
-  height: 60vh;
-  width: 100%;
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
   background-color: #f5f5f5;
-  transition: color 0.3s ease;
-   opacity: 1   ;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 60vh;              /* controls the visible height of image */
+  overflow: hidden; 
 }
+
+.card-img {
+  height: 100%;
+  object-fit: contain;        /* keeps full image visible */
+  transition: transform 0.4s ease;
+  transform: scale(0.95); 
+}
+
+.card-bg:hover .card-img {
+  transform: scale(1.05);     /* image pops out on hover */
+}
+.sec_Swiper:hover .card-img {
+ transform: scale(1);            /* pop in to full size */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);  /* optional shadow */
+}
+/*     swiper    */
+
   .this_swiper {
     height: 100vh; /* Full screen height */
   }
@@ -90,52 +190,42 @@ button, a{
   }
     
   }
-.swiper-slide img {
-  margin-bottom: 1em;
-}
   @media (max-width:768px) {
   .this_swiper {
     height: 50vh; /* Full screen height */
   }
 }
 @media (max-width:768px) {
-    .swiper-slide{
-    margin: 10px !important;
-    margin-right:0px !important;
-    }
+
     .this_swiper_slide{
         margin: 0px !important;
     }
+    .full-img{
+  width: 100%;
+  height: auto !important ;           
+  object-fit: cover;      
+  object-position: center;
+}
 }
 .swiper-pagination-bullet-active {
   width: 40px;       /* active bullet is longer */
   height: 6px;
   border-radius: 5px;
-  background: #636668; /* active color */
+  background: #0d6efd; /* active color */
   opacity: 1;
 }
-#navbar_head{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-
-    background: transparent;
-  color: inherit;            /* default text color */
-    transition: top 0.4s ease, background-color 0.4s ease, color 0.4s ease;
-
-    padding: 10px 0;
+.full-img{
+  width: 100%;
+  height: 80vh;           
+  object-fit: cover;      
+  object-position: center;
 }
 
-/* White background when scrolling */
-#navbar_head.scrolled{
-    background: rgba(255,255,255,1);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
 
 .banner{
     background-image: url('../img/bg-hero-1.jpg');
+    background-attachment: fixed; /* THIS makes the parallax effect */
+    display: flex;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -198,18 +288,11 @@ button, a{
 
   .testimonial {
     width: 100%;
-    margin-bottom: 2rem; /* spacing between items */
+    margin-bottom: 4rem; /* spacing between items */
     grid-column: auto !important;
     grid-row: auto !important;
   }
-  .empty-space{
-    padding: 10px !important;
-  }
-}
-@media (min-width: 768px) {
-.empty-space{
-    padding: 70px !important;
-}
+
 }
 
 footer {
@@ -220,3 +303,16 @@ footer {
     color: #FFFFFF;
     margin-bottom: 0.5em;
 }
+.footer_nav a {
+    color: #fff;               
+    text-decoration: none;
+    display: inline-block;     
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer_nav a:hover {
+    color: #FFFFFF;           
+    transform: scale(1.5);     
+    text-shadow: 0 4px 6px rgba(255, 255, 255, 0.2); 
+}
+

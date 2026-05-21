@@ -79,7 +79,7 @@ var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
       slidesPerView: 5.5,
       spaceBetween: 20,
       freeMode: true,
-      centeredSlides: true,
+      centeredSlides: true
     }
   }
 
@@ -114,6 +114,7 @@ window.onscroll = function () {
         // show when scroll up
         else {
             navbar.style.top = "0";
+          
         }
     }else{
         
