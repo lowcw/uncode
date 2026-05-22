@@ -35,7 +35,7 @@
             <li class="nav-item"><a class="nav-link header_nav" href="#">About Us</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="#">Services</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="#">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="#">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/contact'; ?>">Contact Us</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/pages/coming-soon'; ?>">coming-soon</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/pages/404-not-found'; ?>">404-not-found</a></li>
         </ul>

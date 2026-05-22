@@ -44,3 +44,10 @@ font-size: clamp(1rem, 3vw ,1rem) !important;
 .contact{
     color: rgb(119, 119, 119) !important;
 }
+.contact-svg{
+ background-color: rgb(127, 0, 253);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
