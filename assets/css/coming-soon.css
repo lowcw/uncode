@@ -1,0 +1,42 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+* {
+    font-family: "Roboto", sans-serif;
+}
+.banner-coming-soon{
+    background-image: url('../img/coming-soon.jpg'); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+h1{
+font-size: clamp(3rem, 5vw, 5rem) !important;
+font-weight: 800;
+color: rgb(48, 49, 51);
+letter-spacing: -0.02em !important;
+line-height: 1.2;
+}
+h5{
+font-size: clamp(1rem, 2vw, 1rem);
+color: rgb(17, 92, 250);
+}
+@media (min-width:991px) {
+    .custom-width{
+    max-width: 40% !important;
+}
+}
+
+#countdown{
+    font-size: clamp(1rem, 2vw, 1.35rem);
+    font-weight: 400;
+    line-height: 4;
+}
+#c-soon svg {
+    width: clamp(1em, 2vw, 1.5em); /* scales with viewport */
+    height: auto;                     /* maintain aspect ratio */
+    display: block;
+}
