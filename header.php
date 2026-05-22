@@ -1,7 +1,7 @@
 <?php ?>
-
-<div id="navbar_head" class="bar-warp container-fluid">
-  <nav  class="navbar navbar-expand-lg px-3 px-md-5">
+<nav>
+  <nav id="navbar_head" class="navbar navbar-expand-lg px-3 px-md-5">
+    <div  class="bar-warp container-fluid">
     <!-- Logo -->
     <a href="https://undsgn.com/uncode/" class="navbar-brand d-flex justify-content-center align-items-center" id="main-logo" aria-label="Uncode">
       <svg preserveAspectRatio="xMinYMin" viewBox="0 0 75.8 75.8" xmlns="http://www.w3.org/2000/svg">
@@ -63,5 +63,6 @@
       </div>
     </div>
     </div>
+  </div>
   </nav>
-</div>
+</nav>
