@@ -3,7 +3,6 @@
 <div id="navbar_head" class="bar-warp container-fluid">
   <nav  class="navbar navbar-expand-lg px-3 px-md-5">
     <!-- Logo -->
-    <!-- Logo -->
     <a href="https://undsgn.com/uncode/" class="navbar-brand d-flex justify-content-center align-items-center" id="main-logo" aria-label="Uncode">
       <svg preserveAspectRatio="xMinYMin" viewBox="0 0 75.8 75.8" xmlns="http://www.w3.org/2000/svg">
         <path d="M37.9,0C17,0,0,17,0,37.9c0,20.9,17,37.9,37.9,37.9c20.9,0,37.9-17,37.9-37.9C75.8,17,58.9,0,37.9,0z M50.8,44.1
@@ -32,7 +31,7 @@
       <div class="offcanvas-body gap-4 justify-content-end align-items-center">
         <div class="">
           <ul class="navbar-nav gap-4">
-          <li class="nav-item ms-md-3"><a class="nav-link header_nav" href="#">Home</a></li>
+          <li class="nav-item ms-md-3"><a class="nav-link header_nav" href="pages/coming-soon.php">Home</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="#">About Us</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="#">Services</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="#">Portfolio</a></li>
