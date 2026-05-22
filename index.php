@@ -4,9 +4,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -155,11 +157,9 @@
             <h4>Bekväm $200</h4>
           </div>
         </div>
-        
-      </div>
-      <div class="my-4 px-2">
+        </div>
+        <div class="my-4 px-0 d-md-none">
           <div class="swiper-pagination position-relative d-flex justify-content-start">
-          </div>
         </div>
     </div>
      </div>
@@ -188,7 +188,7 @@
             <h6 class="text-c-grey">About the firm</h6>
           </div>
           <div class="col-12">
-            <h3 class="ml-5 text-c-white">Lifestyle furniture shop and design studio founded in Malmö curating new Scandinavian aesthetics</h3>
+            <h3 class="ml-5 text-c-white w-75 w-md-0">Lifestyle furniture shop and design studio founded in Malmö curating new Scandinavian aesthetics</h3>
           </div>
         </div>
         <div class="my-md-4 py-md-4 my-4"></div>
@@ -197,13 +197,14 @@
         <div>
         <p>Meet our dynamic team of interior designers, where creativity meets functionality to redefine spaces. With a shared passion for transforming environments, each team member brings a unique perspective and specialized expertise to the table. From concept to execution, we blend aesthetics with practicality, turning visions into vibrant, harmonious realities. With a keen eye for detail and a commitment to client satisfaction, our team is dedicated to crafting personalized, inspiring interiors that resonate with individual lifestyles. Together, we bring your dreams to life, one space at a time.</p>
         </div>
-        <div class="collapse" id="collapseExample0">
-        <div>
-        <p class="mt-5">From concept to completion, we blend functionality with aesthetics, ensuring every project is a testament to our commitment to creating environments that reflect your personality and aspirations. Join us in the journey of shaping spaces that tell your story.</p>
+        
+        <div class="fade-text quote-text">
+        <p class="mt-5 ">From concept to completion, we blend functionality with aesthetics, ensuring every project is a testament to our commitment to creating environments that reflect your personality and aspirations. Join us in the journey of shaping spaces that tell your story. Join us in the journey of shaping spaces that tell your story.</p>
         </div>
       
-      
-        <h4 class="mt-5">“ There's an extraordinary joy that comes from knowing the designs you bring to life resonate with profound purpose.”</h4>
+        <div class="collapse" id="collapseExample0">
+        <h4 class="mt-5 ">“ There's an extraordinary joy that comes from knowing the designs you bring to life resonate with profound purpose.”</h4>
+        
         <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="" class="mt-5 src w-50 h-50" >
 
         <div class="mt-5">
@@ -219,7 +220,7 @@
         <p>Torben spearheads our team, shaping designs that seamlessly blend aesthetics and functionality. Their leadership sets the tone for an environment where creativity flourishes.</p>
         </div>
       </div>
-      <div class="my-5 py-5">
+      <div class="my-5 py-3">
         <a class="trigger-more text-white open_section" data-bs-toggle="collapse" data-bs-target="#collapseExample0">Open Section</a>
       </div>
     
@@ -351,7 +352,7 @@
           </div>
         </div>
       </div>
-       <div class="my-4 px-2">
+       <div class="my-4 px-0 d-md-none">
           <div class="swiper-pagination position-relative d-flex justify-content-start">
         </div>
     </div>

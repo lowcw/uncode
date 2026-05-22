@@ -136,13 +136,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const collapseEl = document.getElementById('collapseExample0');
     const button = document.querySelector('.trigger-more');
+    const fadeText  = document.querySelector('.quote-text');
 
     collapseEl.addEventListener('shown.bs.collapse', function () {
         button.textContent = 'Close Section';
+        fadeText.classList.remove('fade-text');
     });
 
     collapseEl.addEventListener('hidden.bs.collapse', function () {
         button.textContent = 'Open Section';
+        fadeText.classList.add('fade-text');
     });
 
 });
