@@ -14,7 +14,7 @@
     
 </head>
 <body>
-    <?php include('../header.php'); ?>
+    <?php include('../header/header.php'); ?>
     
     <section>
       <div class="focus">

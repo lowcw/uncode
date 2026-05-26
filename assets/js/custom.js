@@ -84,7 +84,57 @@ var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
   }
 
 });
+var about_swiper = new Swiper(".about_swiper", {
+  loop: true,
+  slidesPerView:3,
+  spaceBetween: 20,
+  freeMode: true,
+  centeredSlides: true,
+  freeModeMomentum: false,
+  pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+                 // Responsive breakpoints
+  breakpoints: {
+    320: {  // Mobile
+      slidesPerView: 1,
+      spaceBetween: 10,
+      freeMode: false,       // optional: make snap scroll
+      centeredSlides: false, // optional: show full slide
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    768: { // Tablet
+      slidesPerView: 3,
+      spaceBetween: 20,
+      freeMode: true,
+      centeredSlides: true,
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    1024: { // Desktop
+      slidesPerView: 3,
+      spaceBetween: 20,
+      freeMode: true,
+      centeredSlides: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        }
+    }
+  },
+  
+  pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        }
 
+});
   var swiper = new Swiper(".this_swiper", {
     direction: "vertical",
     slidesPerView: 1,

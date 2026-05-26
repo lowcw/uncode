@@ -11,10 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <?php include('header.php'); ?>
+    <?php include('../header/header.php'); ?>
 
 <section class="banner d-flex justify-content-center align-items-end min-vh-100 py-0">
   <div class="text-center">
@@ -92,7 +92,7 @@
   
 
     <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
+      <div class="swiper wrapper">
         <div class="swiper-slide ">
           <div class="card-bg">
             <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
@@ -412,6 +412,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="../assets/js/custom.js"></script>
 </body>
 </html>
