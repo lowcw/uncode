@@ -31,12 +31,8 @@ font-weight: 300;
     font-size: 1rem !important;
 }
 .banner-2{
-    background-image: url(../img/contact.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
+position: relative;
+
 }
 @media (min-width:768px) {
     .custom-width{

@@ -35,7 +35,7 @@
         </div>
     </section>
     <section class="p-0 ">
-      <div>
+      <div class="bannner-2">
         <img src="assets/img/contact.jpg" alt="" class="img-fluid custom-vh">
       </div>
       <div class="d-flex align-items-center justify-content-center mx-3 mx-md-0">
