@@ -1,0 +1,104 @@
+.service-1{
+    background: radial-gradient(circle at right bottom,
+     rgb(63, 0, 230), rgb(214, 203, 224) 100%);
+}
+.service-2{
+    background: radial-gradient(circle at right bottom,
+     rgb(63, 0, 230), rgb(108, 95, 121) 100%);
+}
+.service-3{
+    background: radial-gradient(circle at right bottom,
+     rgb(63, 0, 230), rgb(58, 46, 70) 100%);
+
+}
+.service-1,.service-2,.service-3{
+    z-index: 2;
+    max-width: 60%;
+    padding:50px;
+}
+.service-phone-icon{
+    width: 90px;
+    height: 100px;
+}
+.bg-service{
+     height: 50vh !important;
+}
+.logo-service{
+    width: 60%;
+}
+@media (max-width:767px) {
+    .service-1,.service-2,.service-3{
+    z-index: 2;
+    max-width: 100%;
+    padding:30px;
+}
+.service-phone-icon{
+    width: 50px;
+    height: 50px;
+
+}
+.bg-service{
+    padding-bottom: 15em !important;
+     height: 100vh !important;
+}
+.logo-service{
+    width: 60%;
+}
+}
+
+.service-box{
+    position:absolute;
+    margin-top: -100px;
+    max-width: 75%;
+}
+h2{
+    font-weight: 400 !important;
+}
+.p-color{
+    color: rgb(119, 119, 119) !important;
+    font-weight: 400;
+}
+.p-color-Global{
+    color: rgb(119, 119, 119) !important;
+    font-weight: 600;
+    font-size:clamp(1rem, 1rem, 1.2rem) !important;
+    max-width: 75%;
+
+}
+h6{
+    color: rgb(119, 119, 119) !important;
+    font-weight: 400;
+        margin: 0;
+        line-height: 2;
+}
+.service-check-icon{
+    width: 20px !important;
+    height: 20px !important;
+    color: rgb(100, 66, 255) !important ;
+}
+.service-img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.bg-1-sevice{
+    background-color: #f7f7f7;
+}
+.service-p{
+    padding: 40px;
+}
+.l-p{
+    background: radial-gradient(circle at right bottom, 
+    rgb(63, 0, 230), rgb(127, 0, 253) 100%);
+}
+.btn-lp{
+    background-color: #f7f7f7;
+    color: #000;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+.btn-lp:hover, .btn-lp:active{
+    background-color: rgb(127, 0, 253);
+    border: 2px solid rgb(255, 255, 255);
+    color: #000000;
+}
