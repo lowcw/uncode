@@ -86,7 +86,7 @@ var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
 });
 var about_swiper = new Swiper(".about_swiper", {
   loop: true,
-  slidesPerView:3,
+  slidesPerView:3.5,
   spaceBetween: 20,
   freeMode: true,
   centeredSlides: true,

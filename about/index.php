@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../assets/css/about.css">
 </head>
 <body>
-    <?php include('../header/header.php'); ?>
+    <?php include('../inc/header.php'); ?>
     
     <section class="banner-c pb-5">
         <div class="custom-width container my-5 my-md-5">
@@ -45,41 +45,32 @@
       
         <div class="swiper about_swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide m-0">
                   <div class="about-card">
                     <img src="../assets/img/about.jpg" alt="" class="about-img">
                   </div>                  
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide m-0">
                   <div class="about-card">
                     <img src="../assets/img/about.jpg" alt="" class="about-img">
                   </div>                  
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide m-0">
                   <div class="about-card">
                     <img src="../assets/img/about.jpg" alt="" class="about-img">
                   </div>                  
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide m-0">
                   <div class="about-card">
                     <img src="../assets/img/about.jpg" alt="" class="about-img">
                   </div>                  
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide m-0">
                   <div class="about-card">
                     <img src="../assets/img/about.jpg" alt="" class="about-img">
                   </div>                  
                 </div>
-                <div class="swiper-slide">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
-                </div>
-                <div class="swiper-slide">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
-                </div>
+  
             </div>
             
           </div>
@@ -87,7 +78,41 @@
       </div>
     </section>
 
-
+<section>
+  <div class="container p-0">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Research and strategy</h2>
+        <div>
+          <p class="banner-p">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
+            Iterative approaches to corporate strategy collaborative thinking to further the overall value.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <h2>Wireframes and design</h2>
+        <div class="">
+          <p class="banner-p">Bring to the table win-win survival strategies to ensure proactive domination. 
+            At the end of the day, going forward, a new has on the runway a streamlined cloud solution.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Development and scale</h2>
+        <div class="">
+          <p class="banner-p">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. 
+            Override the digital divide with additional clicks along the information highway.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <h2>Testing and evaluation</h2>
+      <div class="">
+        <p class="banner-p">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
+          Organically grow the holistic world view of innovation.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -129,7 +154,7 @@
         </div>
     </div>
 </section>
-    <?php include('../footer/footer.php'); ?>
+    <?php include('../inc/footer.php'); ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

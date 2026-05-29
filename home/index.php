@@ -4,23 +4,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <?php include('../inc/boots-font.php'); ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <?php include('../header/header.php'); ?>
+    <?php include('../inc/header.php'); ?>
 
 <section class="banner d-flex justify-content-center align-items-end min-vh-100 py-0">
   <div class="text-center">
     <h1 class="text-white">Pure Nordic</h1>
   </div>
-</section>
 </section>
 <section class="">
   <div class="container min-vh-50">
@@ -408,10 +403,8 @@
   </div>
 </section>
 
-<?php include('../footer/footer.php'); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<?php include('../inc/footer.php'); ?>
+<?php include('../inc/js-boots.php'); ?>
 <script src="../assets/js/custom.js"></script>
 </body>
 </html>

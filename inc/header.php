@@ -3,7 +3,7 @@
   <nav id="navbar_head" class="navbar navbar-expand-lg px-3 px-md-5">
     <div  class="bar-warp container-fluid">
     <!-- Logo -->
-    <a href="https://undsgn.com/uncode/" class="navbar-brand d-flex justify-content-center align-items-center" id="main-logo" aria-label="Uncode">
+    <a href="<?php echo '/uncode/home/index'; ?>" class="navbar-brand d-flex justify-content-center align-items-center" id="main-logo" aria-label="Uncode">
       <svg preserveAspectRatio="xMinYMin" viewBox="0 0 75.8 75.8" xmlns="http://www.w3.org/2000/svg">
         <path d="M37.9,0C17,0,0,17,0,37.9c0,20.9,17,37.9,37.9,37.9c20.9,0,37.9-17,37.9-37.9C75.8,17,58.9,0,37.9,0z M50.8,44.1
         c0,2-0.3,3.7-1,5.2c-0.6,1.5-1.5,2.8-2.7,3.8c-1.2,1-2.5,1.8-4.1,2.3c-1.6,0.5-3.3,0.8-5.1,0.8c-1.9,0-3.6-0.3-5.1-0.8

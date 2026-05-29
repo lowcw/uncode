@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../assets/css/service.css">
 </head>
 <body>
-    <?php include('../header/header.php'); ?>
+    <?php include('../inc/header.php'); ?>
     
     <section class="banner-c pb-5">
         <div class="custom-width container my-5 my-md-5">
@@ -338,7 +338,7 @@
         </div>
     </div>
 </section>
-    <?php include('../footer/footer.php'); ?>
+    <?php include('../inc/footer.php'); ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
