@@ -1,3 +1,18 @@
+.service-section{
+    background: #000;
+    padding: 0px 0px 100px 0px !important;
+}
+
+.service-banner{
+    height: 400px;
+    background:url('../img/service-bg.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-content{
+    margin-top: -100px;
+}
 .service-1{
     background: radial-gradient(circle at right bottom,
      rgb(63, 0, 230), rgb(214, 203, 224) 100%);
@@ -9,10 +24,8 @@
 .service-3{
     background: radial-gradient(circle at right bottom,
      rgb(63, 0, 230), rgb(58, 46, 70) 100%);
-
 }
 .service-1,.service-2,.service-3{
-    z-index: 2;
     max-width: 60%;
     padding:50px;
 }
@@ -20,41 +33,28 @@
     width: 90px;
     height: 100px;
 }
-.bg-service{
-     height: 50vh !important;
-}
+
 .logo-service{
     width: 60%;
 }
 @media (max-width:767px) {
     .service-1,.service-2,.service-3{
-    z-index: 2;
     max-width: 100%;
     padding:30px;
 }
 .service-phone-icon{
     width: 50px;
     height: 50px;
+}
 
-}
-.bg-service{
-    padding-bottom: 15em !important;
-     height: 100vh !important;
-}
 .logo-service{
     width: 60%;
 }
 .p-color-Global{
     max-width: 100% !important;
-
 }
 }
 
-.service-box{
-    position:absolute;
-    margin-top: -100px;
-    max-width: 75%;
-}
 h2{
     font-weight: 400 !important;
 }

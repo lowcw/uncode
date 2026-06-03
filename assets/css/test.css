@@ -1,0 +1,32 @@
+h1{
+    font-size: clamp(0.8rem ,1vw ,0.7rem) !important;
+    color: rgb(127, 0, 253);
+    letter-spacing: .5em;
+}
+h2{
+    font-size: clamp(3rem ,9vw ,8.5rem) !important;
+    color: #FFFFFFFF;
+}
+h3, p{
+color: #FFFFFFFF;
+}
+h3{
+font-size: 1.5rem !important;
+font-weight: 500;
+}
+.banner-s{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    padding: 100px 0px 50px 0px;
+    
+}.banner-p{
+    font-size: clamp(1.6rem, 2vw ,1.7rem) !important;
+    color: rgb(119, 119, 119);
+}
+p{
+font-size:1rem !important;
+font-weight: 300;
+}
+.contact{
+    font-size: 1rem !important;
+}

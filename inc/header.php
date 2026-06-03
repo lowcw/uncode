@@ -3,7 +3,7 @@
   <nav id="navbar_head" class="navbar navbar-expand-lg px-3 px-md-5">
     <div  class="bar-warp container-fluid">
     <!-- Logo -->
-    <a href="<?php echo '/uncode/home/index'; ?>" class="navbar-brand d-flex justify-content-center align-items-center" id="main-logo" aria-label="Uncode">
+    <a href="<?php echo '/uncode'; ?>" class="navbar-brand d-flex justify-content-center align-items-center" id="main-logo" aria-label="Uncode">
       <svg preserveAspectRatio="xMinYMin" viewBox="0 0 75.8 75.8" xmlns="http://www.w3.org/2000/svg">
         <path d="M37.9,0C17,0,0,17,0,37.9c0,20.9,17,37.9,37.9,37.9c20.9,0,37.9-17,37.9-37.9C75.8,17,58.9,0,37.9,0z M50.8,44.1
         c0,2-0.3,3.7-1,5.2c-0.6,1.5-1.5,2.8-2.7,3.8c-1.2,1-2.5,1.8-4.1,2.3c-1.6,0.5-3.3,0.8-5.1,0.8c-1.9,0-3.6-0.3-5.1-0.8
@@ -31,14 +31,14 @@
       <div class="offcanvas-body gap-4 justify-content-end align-items-center">
         <div class="">
           <ul class="navbar-nav gap-4">
-          <li class="nav-item ms-md-3"><a class="nav-link header_nav" href="<?php echo '/uncode/home/index'; ?>">Home</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/about/index'; ?>">About Us</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/service/index'; ?>">Services</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/portfolio/index'; ?>">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/s-portfolio/index'; ?>">Singel-Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/contact/index'; ?>">Contact Us</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/pages/coming-soon'; ?>">coming-soon</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/pages/404-not-found'; ?>">404-not-found</a></li>
+          <li class="nav-item ms-md-3"><a class="nav-link header_nav" href="<?php echo '/uncode'; ?>">Home</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/about'; ?>">About Us</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/service'; ?>">Services</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/portfolio'; ?>">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/s-portfolio'; ?>">Singel-Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/contact'; ?>">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/coming-soon'; ?>">coming-soon</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/404-not-found'; ?>">404-not-found</a></li>
         </ul>
         </div>
         

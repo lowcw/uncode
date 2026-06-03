@@ -4,13 +4,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <?php include('../inc/boots-font.php'); ?>
+  <?php include('inc/boots-font.php'); ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <?php include('../inc/header.php'); ?>
+    <?php include('inc/header.php'); ?>
 
 <section class="banner d-flex justify-content-center align-items-end min-vh-100 py-0">
   <div class="text-center">
@@ -168,7 +168,7 @@
                 <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="">
             </div>
             <div class="swiper-slide this_swiper_slide">
-                <img src="../assets/img/bg-hero.jpg" alt="" >
+                <img src="assets/img/bg-hero.jpg" alt="" >
             </div>
         </div>
     </div>
@@ -244,7 +244,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -252,7 +252,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -260,7 +260,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -268,7 +268,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -276,7 +276,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -284,7 +284,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -292,7 +292,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -300,7 +300,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -308,7 +308,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -316,7 +316,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -324,7 +324,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -332,7 +332,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -340,7 +340,7 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="../assets/img/tt.jpg" alt="" class="card-img">
+            <img src="assets/img/tt.jpg" alt="" class="card-img">
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -403,8 +403,8 @@
   </div>
 </section>
 
-<?php include('../inc/footer.php'); ?>
-<?php include('../inc/js-boots.php'); ?>
-<script src="../assets/js/custom.js"></script>
+<?php include('inc/footer.php'); ?>
+<?php include('inc/js-boots.php'); ?>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>

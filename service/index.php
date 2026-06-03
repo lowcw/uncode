@@ -34,13 +34,12 @@
           </div>
         </div>
     </section>
-<section class="p-0 m-0">
-    <div class="bannner-2">
-        <img src="../assets/img/service-bg.jpg" alt="" class="img-fluid custom-vh">
-    </div>
-    <div class="d-flex justify-content-center">
-        <div class="service-box container">
-          <div class="row ">
+<section class="service-section">
+    <!-- Image only -->
+    <div class="service-banner"></div>
+    <!-- content below image -->
+    <div class="container service-content py-5 px-5 px-md-0">
+        <div class="row ">
            <div class="col-12 col-md-4 service-1">   
              <div class="row">
                 <div class="col-12 p-0 mb-4 mb-md-3">
@@ -89,14 +88,10 @@
                 </div>
              </div>
             </div>
-          </div>  
         </div>
-      </div>
     </div>
-</section>
+</section>  
 
-<section class="bg-service" style="background-color: #141618;">
-</section>
 
 <section class="bg-1-sevice">
     <div class="container">
