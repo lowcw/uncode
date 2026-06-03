@@ -115,7 +115,7 @@ section, .spacing{
 .navbar-nav .nav-link svg.active,
 .navbar-nav .header_nav:hover,
 .navbar-nav .header_nav.active {
-    transform: scale(1.2);
+    transform: scale(1);
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
 }
 .mobile-menu-button {

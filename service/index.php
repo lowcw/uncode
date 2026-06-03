@@ -262,7 +262,7 @@
             </div>
 
       <div class="col-12 col-md-6 order-first order-md-0">
-        <img src="assets/img/service-content.jpg" alt="" 
+        <img src="../assets/img/service-content.jpg" alt="" 
         class="img-fluid service-img">
       </div>
     </div>
@@ -275,7 +275,7 @@
             <div class="col-12 text-white">
                 <h2>Global partners</h2>
             </div>
-            <div class="col-12 px-5 d-flex justify-content-center">
+            <div class="col-12 px0 px-md-5 d-flex justify-content-center">
                 <p class="p-color-Global w-0 w-md-75">Iterative approaches to corporate strategy foster collaborative thinking 
                     to further the overall value proposition organically grow the holistic world view of disruptive innovation.</p>
             </div>

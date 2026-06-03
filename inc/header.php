@@ -34,7 +34,8 @@
           <li class="nav-item ms-md-3"><a class="nav-link header_nav" href="<?php echo '/uncode/home/index'; ?>">Home</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/about/index'; ?>">About Us</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/service/index'; ?>">Services</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="#">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/portfolio/index'; ?>">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/s-portfolio/index'; ?>">Singel-Portfolio</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/contact/index'; ?>">Contact Us</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/pages/coming-soon'; ?>">coming-soon</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/pages/404-not-found'; ?>">404-not-found</a></li>

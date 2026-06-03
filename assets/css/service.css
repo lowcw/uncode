@@ -44,6 +44,10 @@
 .logo-service{
     width: 60%;
 }
+.p-color-Global{
+    max-width: 100% !important;
+
+}
 }
 
 .service-box{

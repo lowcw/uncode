@@ -16,9 +16,10 @@
 <body>
     <?php include('../inc/header.php'); ?>
     
-    <section class="banner-c pb-5">
+    <section class="banner-s pb-5">
+      <div class="container"></div>
         <div class="custom-width container my-5 my-md-5">
-          <div class="row mx-3 mx-md-0">
+          <div class="row mx-0 mx-md-0">
             <div class="col-12 my-3 my-md-0">
               <h5 class="text-uppercase">About us</h5>
             </div>
@@ -33,54 +34,37 @@
             </div>
           </div>
         </div>
-    </section>
-
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-
-          </div>
-        </div>
-      
+<div class="hero-slider py-0">
+    <div class="container-fluid ">
         <div class="swiper about_swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide m-0">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
+                <div class="swiper-slide">
+                    <img src="../assets/img/about.jpg" class="hero-img" alt="">
                 </div>
-                <div class="swiper-slide m-0">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
+                <div class="swiper-slide">
+                    <img src="../assets/img/about.jpg" class="hero-img" alt="">
                 </div>
-                <div class="swiper-slide m-0">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
+                <div class="swiper-slide">
+                    <img src="../assets/img/about.jpg" class="hero-img" alt="">
                 </div>
-                <div class="swiper-slide m-0">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
+                <div class="swiper-slide">
+                    <img src="../assets/img/about.jpg" class="hero-img" alt="">
                 </div>
-                <div class="swiper-slide m-0">
-                  <div class="about-card">
-                    <img src="../assets/img/about.jpg" alt="" class="about-img">
-                  </div>                  
+                <div class="swiper-slide">
+                    <img src="../assets/img/about.jpg" class="hero-img" alt="">
                 </div>
-  
             </div>
-            
-          </div>
-           <div class="swiper-pagination my-5 position-relative"></div>
-      </div>
-    </section>
+        </div>
+        <div class="my-4 px-0">
+      <div class="swiper-pagination position-relative justify-content-start"></div>
+    </div>
+    </div>
+    </div>
+</section>
 
 <section>
-  <div class="container p-0">
-    <div class="row">
+  <div class="container p-3 p-md-0">
+    <div class="row gx-md-5 gx-0 m-0">
       <div class="col-12 col-md-6">
         <h2>Research and strategy</h2>
         <div>
@@ -96,7 +80,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row gx-md-5 gx-0 m-0">
       <div class="col-12 col-md-6">
         <h2>Development and scale</h2>
         <div class="">
@@ -113,31 +97,104 @@
     </div>
   </div>
 </section>
+<div class="container">
+  <div class="testimonial-card">
+    
+   <div class="row align-items-center m-0">
 
+      <!-- left text -->
+      <div class="col-md-8">
+        <p class="banner-p text-white mb-4">
+          “We are globally recognised as leaders in this industry, and we have garnered hundreds of awards for our work. Today, brands are more than what they say. We believe in creating meaningful experience for clients.”
+        </p>
+      </div>
 
+      <!-- right avatar -->
+      <div class="col-md-4 text-center">
+        <img src="https://i.pravatar.cc/150?img=12" class="rounded-circle avatar mb-4" alt="">
+        <div class="fw-bold">Mark Mills</div>
+        <small>Founder & CEO</small>
+      </div>
 
+    </div>
+  </div>
 
+</div>
+<section class="banner-s banner-h">
+</section>
+<section class="banner-s">
+  <div class="container p-0">
+    <div class="row text-center mt-5 mt-md-0 m-0">
+      <div class="col-12">
+        <h2 class="text-white">All stars roster</h2>
+        <p class="banner-p">Iterative approaches to corporate strategy foster collaborative
+       thinking to further the overall value proposition organically grow the holistic world view of innovation.</p>
+      </div>
+    </div>
+  </div>
 
+  <div class="container p-0">
+  <div class="row gx-md-5 gx-0 px-4 px-md-0 m-0">
+    <div class="col-12 col-md-4">
+      <figure class="figure">
+        <img src="../assets/img/service-person.jpg" class="figure-img img-fluid rounded" alt="">
+        <figcaption class="figure-caption">
+          <h6>Jonathan Harper</h6>
+          <p class="banner-p-figure">Director and UX Designer</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-4">
+      <figure class="figure">
+        <img src="../assets/img/service-person.jpg" class="figure-img img-fluid rounded" alt="">
+        <figcaption class="figure-caption">
+          <h6>Jonathan Harper</h6>
+          <p class="banner-p-figure">Director and UX Designer</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-4">
+      <figure class="figure">
+        <img src="../assets/img/service-person.jpg" class="figure-img img-fluid rounded" alt="">
+        <figcaption class="figure-caption">
+          <h6>Jonathan Harper</h6>
+          <p class="banner-p-figure">Director and UX Designer</p>
+        </figcaption>
+      </figure>
+    </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="row gx-md-5 gx-0 px-4 px-md-0 m-0">
+    <div class="col-12 col-md-4">
+      <figure class="figure">
+        <img src="../assets/img/service-person.jpg" class="figure-img img-fluid rounded" alt="">
+        <figcaption class="figure-caption">
+          <h6>Jonathan Harper</h6>
+          <p class="banner-p-figure">Director and UX Designer</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-4">
+      <figure class="figure">
+        <img src="../assets/img/service-person.jpg" class="figure-img img-fluid rounded" alt="">
+        <figcaption class="figure-caption">
+          <h6>Jonathan Harper</h6>
+          <p class="banner-p-figure">Director and UX Designer</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-4">
+      <figure class="figure">
+        <img src="../assets/img/service-person.jpg" class="figure-img img-fluid rounded" alt="">
+        <figcaption class="figure-caption">
+          <h6>Jonathan Harper</h6>
+          <p class="banner-p-figure">Director and UX Designer</p>
+        </figcaption>
+      </figure>
+    </div>
+    </div>
+  </div>
+</section>
 
 <section class="l-p">
     <div class="container">
@@ -149,7 +206,7 @@
                 <h2 style="color:#FFFFFF;">Ready to rock together?!</h2>
             </div>
             <div class="col-12 mt-4">
-                <button class="btn-lp px-4 py-3"  onclick="window.location.href='../index.php'">Contact Us</button>
+                <button class="btn-lp px-4 py-3"  onclick="window.location.href='../home/index.php'">Contact Us</button>
             </div>
         </div>
     </div>

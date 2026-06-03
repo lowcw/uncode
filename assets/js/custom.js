@@ -86,16 +86,14 @@ var my_sec_Swiper = new Swiper(".my_sec_Swiper", {
 });
 var about_swiper = new Swiper(".about_swiper", {
   loop: true,
-  slidesPerView:3.5,
-  spaceBetween: 20,
-  freeMode: true,
+  slidesPerView: 1.5,
   centeredSlides: true,
-  freeModeMomentum: false,
+  spaceBetween: 30,
+
   pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-                 // Responsive breakpoints
+    el: ".swiper-pagination",
+    clickable: true,
+  },
   breakpoints: {
     320: {  // Mobile
       slidesPerView: 1,
@@ -108,7 +106,7 @@ var about_swiper = new Swiper(".about_swiper", {
         },
     },
     768: { // Tablet
-      slidesPerView: 3,
+      slidesPerView: 1.5,
       spaceBetween: 20,
       freeMode: true,
       centeredSlides: true,
@@ -116,24 +114,46 @@ var about_swiper = new Swiper(".about_swiper", {
             el: '.swiper-pagination',
             clickable: true,
         },
+    }
+  }
+});
+var about_swiper = new Swiper(".s_portfolio_swiper", {
+  loop: true,
+  slidesPerView: 1.5,
+  centeredSlides: true,
+  spaceBetween: 30,
+  speed:1000,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: 
+    {
+      delay: 2000,
     },
-    1024: { // Desktop
-      slidesPerView: 3,
+  breakpoints: {
+    320: {  // Mobile
+      slidesPerView: 1,
+      spaceBetween: 10,
+      freeMode: false,       // optional: make snap scroll
+      centeredSlides: false, // optional: show full slide
+       pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    },
+    768: { // Tablet
+      slidesPerView: 1.5,
       spaceBetween: 20,
       freeMode: true,
       centeredSlides: true,
-        pagination: {
+       pagination: {
             el: '.swiper-pagination',
             clickable: true,
-        }
+        },
     }
-  },
-  
-  pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        }
-
+  }
 });
   var swiper = new Swiper(".this_swiper", {
     direction: "vertical",
@@ -196,6 +216,38 @@ document.addEventListener('DOMContentLoaded', function () {
     collapseEl.addEventListener('hidden.bs.collapse', function () {
         button.textContent = 'Open Section';
         fadeText.classList.add('fade-text');
+    });
+
+});
+const buttons = document.querySelectorAll('[data-filter]');
+const items = document.querySelectorAll('.item');
+
+buttons.forEach(btn => {
+
+    btn.addEventListener('click', () => {
+
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+
+        items.forEach(item => {
+
+            if(filter === 'all'){
+                item.style.display = 'block';
+            }
+            else{
+
+                if(item.classList.contains(filter)){
+                    item.style.display = 'block';
+                }else{
+                    item.style.display = 'none';
+                }
+
+            }
+
+        });
+
     });
 
 });
