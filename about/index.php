@@ -9,11 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/contact.css">
     <link rel="stylesheet" href="../assets/css/about.css">
 </head>
 <body>
@@ -115,7 +113,7 @@
   </div>
 </section>
 <div class="container">
-  <div class="testimonial-card">
+  <div class="testimonial-card animate__headShake">
     
    <div class="row align-items-center m-0">
 

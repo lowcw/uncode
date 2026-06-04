@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -123,7 +124,7 @@
             </div>
           </div>
           <div class="">
-          <button class="btn  px-5 py-3" type="submit">Submit a request</button>
+          <button class="btn animate__headShake px-5 py-3" type="submit">Submit a request</button>
         </div>
         </div>
         

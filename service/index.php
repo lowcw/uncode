@@ -7,10 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/contact.css">
     <link rel="stylesheet" href="../assets/css/service.css">
 </head>
 <body>
@@ -99,8 +99,8 @@
 </section>  
 
 
-<section class="bg-1-sevice">
-    <div class="container">
+<section class="bg-1-sevice animate__headShake">
+    <div class="container ">
         <div class="row">
             <div class="col-12 col-md-6 service-p align-content-center">
                 <div class="row">
@@ -150,18 +150,18 @@
 
       <div class="col-12 col-md-6 order-first order-md-0">
         <img src="../assets/img/service-content.jpg" alt="" 
-        class="img-fluid service-img">
+        class="img-fluid service-img ">
       </div>
     </div>
   </div>
 </section>
 
-<section >
-    <div class="container">
+<section class="animate__headShake">
+    <div class="container ">
         <div class="row">
             <div class="col-12 col-md-6">
                 <img src="../assets/img/service-content.jpg" alt="" 
-                class="img-fluid service-img">
+                class="img-fluid service-img ">
             </div>
 
             <div class="col-12 col-md-6 service-p align-content-center">
@@ -213,7 +213,7 @@
   </div>
 </section>
 
-<section class="bg-1-sevice">
+<section class="bg-1-sevice animate__headShake">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 service-p align-content-center">

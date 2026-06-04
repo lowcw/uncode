@@ -111,16 +111,14 @@ section, .spacing{
 }
 
 /* Hover / active */
-.navbar-nav .nav-link svg:hover,
 .navbar-nav .nav-link svg.active,
 .navbar-nav .header_nav.active {
     transform: scale(1.4);
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
 }
 .navbar-nav .nav-link svg:hover,
-.navbar-nav .nav-link svg.active,
 .navbar-nav .header_nav:hover{
-    transform: scale(1);
+    transform: scale(1.2);
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
 }
 .mobile-menu-button {
@@ -325,15 +323,15 @@ section, .spacing{
 }
 
 .testimonial img:hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease-in;
+    transform: scale(0.9);
+    transition: all 0.3s ease-out;
 }
-.testimonial:hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease-in;
-}
+
 .testimonial {
     overflow: hidden;
+}
+.shake-btn{
+    display: inline-block;
 }
 
 footer {

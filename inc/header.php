@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+$current_page = basename($_SERVER['REQUEST_URI']);
+?>
 <nav>
   <nav id="navbar_head" class="navbar navbar-expand-lg px-3 px-md-5">
     <div  class="bar-warp container-fluid">
@@ -31,13 +33,38 @@
       <div class="offcanvas-body gap-4 justify-content-end align-items-center">
         <div class="">
           <ul class="navbar-nav gap-4">
-          <li class="nav-item ms-md-3"><a class="nav-link header_nav" href="<?php echo '/uncode'; ?>">Home</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/about'; ?>">About Us</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/service'; ?>">Services</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/portfolio'; ?>">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/s-portfolio'; ?>">Singel-Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/contact'; ?>">Contact Us</a></li>
-        </ul>
+
+    <li class="nav-item ms-md-3">
+        <a class="nav-link header_nav <?= ($current_page == 'uncode' || $current_page == '') ? 'active' : ''; ?>"
+           href="/uncode">Home</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link header_nav <?= ($current_page == 'about') ? 'active' : ''; ?>"
+           href="/uncode/about">About Us</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link header_nav <?= ($current_page == 'service') ? 'active' : ''; ?>"
+           href="/uncode/service">Services</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link header_nav <?= ($current_page == 'portfolio') ? 'active' : ''; ?>"
+           href="/uncode/portfolio">Portfolio</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link header_nav <?= ($current_page == 'sportfolio') ? 'active' : ''; ?>"
+           href="/uncode/sportfolio">Single Portfolio</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link header_nav <?= ($current_page == 'contact') ? 'active' : ''; ?>"
+           href="/uncode/contact">Contact Us</a>
+    </li>
+
+</ul>
         </div>
         
       <div class="navbar-nav gap-4 d-none">

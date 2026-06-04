@@ -41,7 +41,7 @@
             </h3>
           </div>
           <div class="bottom-end">
-            <a href="#" class="link-offset-3 text-black">
+            <a href="contact" class="shake-btn link-offset-3 text-black">
               Our Manifesto →
             </a>
           </div>
@@ -366,7 +366,7 @@
                 <h3 class="text-black mb-3 mb-md-4 fw-bold ">Explore our blog for insights on Nordic design, sustainable living, and tips to elevate your space with our style</h3>
               </div>
               <div class="my-5 mb-md-5">
-                <a href="#" class="link-offset-3 text-black">
+                <a href="contact" class="shake-btn link-offset-3 text-black">
                 Visit the Blog →
               </a>
               </div>

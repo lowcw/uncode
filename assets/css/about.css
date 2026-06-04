@@ -22,6 +22,31 @@
     height: auto;
     
 }
+h1{
+    font-size: clamp(3rem ,9vw ,8rem) !important;
+    color: #FFFFFFFF;
+}
+h5{
+    font-size: clamp(0.8rem ,1vw ,0.7rem) !important;
+    color: rgb(127, 0, 253);
+    letter-spacing: .5em;
+}
+h3, p{
+color: #FFFFFFFF;
+}
+h3{
+font-size: 1.5rem !important;
+font-weight: 500;
+}
+.banner-p{
+    font-size: clamp(1.6rem, 2vw ,1.7rem) !important;
+    color: rgb(119, 119, 119);
+}
+p{
+font-size:1rem !important;
+font-weight: 300;
+}
+
 .animation:hover .hero-img{
   transform: scale(1.1);
 }
@@ -81,7 +106,9 @@
     z-index: 10;
     justify-self: center;
   }
-
+.testimonial-card:hover{
+    animation: headShake 1s infinite !important;
+}
   .avatar {
     width: 40%;
     height: 40%;
@@ -139,7 +166,16 @@ h6{
 .btn-lp {
     transition: all 0.3s ease;
 }
-
+.navbar-nav .header_nav.active{
+    transform: scale(1);
+    color: #b1b1b1 !important;
+    filter: drop-shadow(1px 1px 2px rgba(165, 42, 42, 0.5));
+}
+.navbar-nav .header_nav:hover{
+    transform: scale(1.3);
+    color: #b1b1b1 !important;
+    filter: drop-shadow(1px 1px 2px rgba(165, 42, 42, 0.5));
+}
 .btn-lp:hover {
     transform: scale(1.05);
 }
