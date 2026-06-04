@@ -29,7 +29,7 @@
                 <div class=" box border border-1 border-white"></div>
                 </div>
                 <div class="col-12 mt-4">
-                    <button class="btn px-4 py-2"  onclick="window.location.href='../index.php'">Back Homepage</button>
+                    <button class="btn px-4 py-2"  onclick="window.location.href='/uncode/'">Back Homepage</button>
                 </div>
             </div>
         </div>

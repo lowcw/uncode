@@ -39,6 +39,9 @@ p {
     opacity: 0.4;
 }
 .btn{
+animation: headShake 1s infinite !important;
+}
+.btn{
     background-color: #ffffff;
     color: black;
     font-size: clamp(0.5rem, 3vw, 0.8rem) !important;
@@ -47,4 +50,5 @@ p {
 }
 .btn:hover{
     border: 2px solid #ffffff;
+    background-color: #ffffff !important;
 }
