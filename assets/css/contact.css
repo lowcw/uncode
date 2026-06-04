@@ -3,6 +3,9 @@
     height: auto;
     
 }
+#navbar_head.scrolled .navbar-nav .nav-link, #navbar_head.scrolled .navbar-nav .header_nav {
+    color: black !important;
+}
 @media (min-width:991px) {
 
   .navbar-nav .header_nav.active{

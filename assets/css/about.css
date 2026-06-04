@@ -163,6 +163,9 @@ h6{
     z-index: 10;
 }
 }
+#navbar_head.scrolled .navbar-nav .nav-link, #navbar_head.scrolled .navbar-nav .header_nav {
+    color: black !important;
+}
 .btn-lp {
     transition: all 0.3s ease;
 }
