@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <?php include('inc/boots-font.php'); ?>
+  <?php include('inc/css.php'); ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -404,7 +404,7 @@
 </section>
 
 <?php include('inc/footer.php'); ?>
-<?php include('inc/js-boots.php'); ?>
+<?php include('inc/js.php'); ?>
 <script src="assets/js/custom.js"></script>
 </body>
 </html>
