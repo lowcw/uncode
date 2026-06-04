@@ -15,23 +15,29 @@
 </head>
 <body>
     <?php include('../inc/header.php'); ?>
-    
+   
     <section class="banner-c pb-5">
-        <div class="custom-width container my-5 my-md-5">
-          <div class="row mx-3 mx-md-0">
-            <div class="col-12 my-3 my-md-0">
-              <h5 class="text-uppercase">What we do</h5>
-            </div>
-            <div class="col-12">
-              <h1>Suuuper duper web stuff</h1>
-            </div>
-            <div class="col-12 d-flex justify-content-center">
-              <div class="banner-p-w my-5">
-                <p class="banner-p">Iterative approaches to corporate strategy foster collaborative thinking to 
+        <div class="container my-5 my-md-5 p-0">
+            <div class="d-flex flex-wrap g-5 justify-content-center">
+            <div class="col-12 col-md-8 p-3 p-md-0">
+
+                <div class="row justify-content-center">
+                  <div class="col-12">
+                    <h5 class="text-uppercase">What we do</h5>
+                  </div>
+                  <div class="col-12">
+                    <h1>Suuuper duper web stuff</h1>
+                  </div>
+                  <div class="col-12 col-md-8 my-5">
+                    <div class="">
+                    <p class="banner-p">Iterative approaches to corporate strategy foster collaborative thinking to 
                     further the overall value. Leverage agile frameworks to provide a robust high level overviews.</p>
-              </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
         </div>
     </section>
 <section class="service-section">

@@ -13,8 +13,26 @@
 h1 {
     font-size: clamp(4rem, 8vw, 8rem);
 }
-
-
+.gclose{
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 999999 !important;
+}
+.gprev svg,
+.gnext svg {
+  width: 100px;
+}
+.gprev:hover svg,
+.gnext:hover svg {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+.hero-img:hover,
+.hero-img.active{
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
 .swiper-slide {         
   height: 100%;
   opacity: 0.3;
@@ -37,11 +55,13 @@ h1 {
   border-radius: 12px;
 }
 .swiper-pagination-bullet {
-  background: #fff;
+  background: #000000;
   opacity: 0.4;
+  transition: all 0.3s ease-in;
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
+  transform: scale(1.1);
 }
 .spacing{
     padding: 80px 0px !important;

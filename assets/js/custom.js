@@ -118,42 +118,34 @@ var about_swiper = new Swiper(".about_swiper", {
   }
 });
 var about_swiper = new Swiper(".s_portfolio_swiper", {
-  loop: true,
-  slidesPerView: 1.5,
-  centeredSlides: true,
-  spaceBetween: 30,
-  speed:1000,
+    loop: true,
+    slidesPerView: 1.5,
+    centeredSlides: true,
+    spaceBetween: 30,
+    speed: 3000,
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: 
-    {
-      delay: 2000,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
-  breakpoints: {
-    320: {  // Mobile
-      slidesPerView: 1,
-      spaceBetween: 10,
-      freeMode: false,       // optional: make snap scroll
-      centeredSlides: false, // optional: show full slide
-       pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+
+    autoplay: {
+        delay: 3000,
     },
-    768: { // Tablet
-      slidesPerView: 1.5,
-      spaceBetween: 20,
-      freeMode: true,
-      centeredSlides: true,
-       pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            centeredSlides: false,
         },
+
+        768: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+            centeredSlides: true,
+        }
     }
-  }
 });
   var swiper = new Swiper(".this_swiper", {
     direction: "vertical",
@@ -219,39 +211,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
-const buttons = document.querySelectorAll('[data-filter]');
-const items = document.querySelectorAll('.item');
-
-buttons.forEach(btn => {
-
-    btn.addEventListener('click', () => {
-
-        buttons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filter = btn.dataset.filter;
-
-        items.forEach(item => {
-
-            if(filter === 'all'){
-                item.style.display = 'block';
-            }
-            else{
-
-                if(item.classList.contains(filter)){
-                    item.style.display = 'block';
-                }else{
-                    item.style.display = 'none';
-                }
-
-            }
-
-        });
-
-    });
-
-});
-
 var glightbox = GLightbox({
   loop: true,
   selector: ".glightbox",
@@ -262,4 +221,20 @@ var glightbox = GLightbox({
   zoomable: true,
   height: "auto",
   touchNavigation: true
+});
+var iso = new Isotope('.menu_cloumn', {
+    itemSelector: '.menu-item'
+});
+
+//isotop
+$('.portfolio-menu button').click(function() {
+    
+    iso.arrange({
+        filter: $(this).data('filter')
+    });
+    // remove active from all
+    $('.portfolio-menu button').removeClass('active');
+
+    // add active to clicked one
+    $(this).addClass('active');
 });

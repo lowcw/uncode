@@ -37,8 +37,6 @@
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/portfolio'; ?>">Portfolio</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/s-portfolio'; ?>">Singel-Portfolio</a></li>
             <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/contact'; ?>">Contact Us</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/coming-soon'; ?>">coming-soon</a></li>
-            <li class="nav-item"><a class="nav-link header_nav" href="<?php echo '/uncode/404-not-found'; ?>">404-not-found</a></li>
         </ul>
         </div>
         

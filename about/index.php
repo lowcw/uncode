@@ -7,8 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -21,7 +22,7 @@
 <section class="banner-s">
     <div class="container p-0">
         <div class="d-flex flex-wrap g-5 justify-content-center">
-            <div class="col-8 ">
+            <div class="col-12 col-md-8 p-3 p-md-0">
 
                 <div class="row justify-content-center">
                   <div class="col-12">
@@ -30,7 +31,7 @@
                   <div class="col-12">
                     <h1>We make sh*t happen</h1>
                   </div>
-                  <div class="col-8 my-5">
+                  <div class="col-12 col-md-8 my-5">
                     <div class="">
                     <p class="banner-p">Leverage agile frameworks to provide a robust high level overviews. Iterative approaches to 
                     corporate strategy foster collaborative thinking to further the overall value.</p>
@@ -140,7 +141,7 @@
 </section>
 <section class="banner-s">
   <div class="container p-0">
-    <div class="row text-center mt-5 mt-md-0 m-0">
+    <div class="row text-center mt-5 mt-md-0 m-0 mb-md-5">
       <div class="col-12">
         <h2 class="text-white">All stars roster</h2>
         <p class="banner-p">Iterative approaches to corporate strategy foster collaborative
@@ -222,7 +223,7 @@
                 <h2 style="color:#FFFFFF;">Ready to rock together?!</h2>
             </div>
             <div class="col-12 mt-4">
-                <button class="btn-lp px-4 py-3"  onclick="window.location.href='../home/index.php'">Contact Us</button>
+                <button class="btn-lp px-4 py-3 animate__animated animate__infinite animate__pulse"  onclick="window.location.href='/uncode/index.php'">Contact Us</button>
             </div>
         </div>
     </div>

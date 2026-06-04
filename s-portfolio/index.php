@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- My CSS -->
@@ -79,22 +80,34 @@
         <div class="swiper s_portfolio_swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
+                  </a>
                 </div>
                 <div class="swiper-slide">
+                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
+                  </a>
                 </div>
                 <div class="swiper-slide">
+                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
+                  </a>
                 </div>
                 <div class="swiper-slide">
+                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
+                  </a>
                 </div>
                 <div class="swiper-slide">
+                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
+                  </a>
                 </div>
             </div>
+            
         </div>
+
         <div class="my-4 px-0">
       <div class="swiper-pagination position-relative justify-content-start"></div>
     </div>
@@ -189,8 +202,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script src="../assets/js/custom.js"></script>
-</body>
-</html>
 </body>
 </html>

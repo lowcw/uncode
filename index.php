@@ -31,7 +31,7 @@
     <div class="testimonial-grid mx-2 mx-md-5">
         <article class="testimonial d-lg-block d-none">
             <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" 
-            alt="" class="img-fluid vh-100">
+            alt="" class="img-fluid img-animation vh-100">
          </article> 
           
           <article class="testimonial d-flex flex-column justify-content-between bg-light p-4 p-md-5 gap-5">
