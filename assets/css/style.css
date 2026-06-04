@@ -84,12 +84,12 @@ section, .spacing{
   /* Nav links and icons at top */
 .navbar-nav .nav-link,
 .navbar-nav .header_nav {
-    color: #b1b1b1 ;        /* white at top */
+    color: #000000;        /* white at top */
     transition: color 0.3s;
 }
 
 .navbar-nav .nav-link svg {
-    color: #b1b1b1 ;          /* icons white at top */
+    fill: #000000;          /* icons white at top */
     transition: fill 0.3s, transform 0.2s, filter 0.2s;
 }
 }
@@ -102,12 +102,12 @@ section, .spacing{
 /* Nav links and icons when scrolled */
 #navbar_head.scrolled .navbar-nav .nav-link,
 #navbar_head.scrolled .navbar-nav .header_nav {
-    color: #b1b1b1;          /* text black when scrolled */
+    color: black;          /* text black when scrolled */
 }
 
 #navbar_head.scrolled .navbar-nav .nav-link svg,
 #navbar_head.scrolled #main-logo svg path {
-    fill: #b1b1b1;           /* icons black when scrolled */
+    fill: black;           /* icons black when scrolled */
 }
 
 /* Hover / active */
