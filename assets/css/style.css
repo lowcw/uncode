@@ -332,6 +332,7 @@ section, .spacing{
 }
 .shake-btn{
     display: inline-block;
+    animation: headShake 1s infinite !important;
 }
 
 footer {
