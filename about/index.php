@@ -38,27 +38,27 @@
         <div class="swiper about_swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
+                  <a href="../assets/img/about.jpg" class="" data-fancybox="gallery">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
                   </a>
                 </div>
                 <div class="swiper-slide">
-                   <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
+                   <a href="../assets/img/about.jpg" class="" data-fancybox="gallery">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
                   </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
+                    <a href="../assets/img/about.jpg" class="" data-fancybox="gallery">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
                   </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
+                    <a href="../assets/img/about.jpg" class="" data-fancybox="gallery">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
                   </a>
                 </div>
                 <div class="swiper-slide">
-                   <a href="../assets/img/about.jpg" class="glightbox" data-gallery="gallery1">
+                   <a href="../assets/img/about.jpg" class="" data-fancybox="gallery">
                     <img src="../assets/img/about.jpg" class="hero-img" alt="">
                   </a>
                 </div>

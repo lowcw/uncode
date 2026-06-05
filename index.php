@@ -90,7 +90,19 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide ">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
+          </div>
+          <div class="card-text mt-3">
+            <h4>Bekväm $200</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-bg">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
             </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -98,7 +110,9 @@
         </div>
         <div class="swiper-slide">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
             </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -106,7 +120,9 @@
         </div>
         <div class="swiper-slide">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
             </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -114,15 +130,9 @@
         </div>
         <div class="swiper-slide">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
-            </div>
-          <div class="card-text mt-3">
-            <h4>Bekväm $200</h4>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
           </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -130,7 +140,9 @@
         </div>
         <div class="swiper-slide">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
           </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -138,7 +150,9 @@
         </div>
         <div class="swiper-slide">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
           </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -146,7 +160,9 @@
         </div>
         <div class="swiper-slide">
           <div class="card-bg">
-            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            <a href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" class="" data-fancybox="gallery">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Bekväm" class="card-img">
+            </a>
           </div>
           <div class="card-text mt-3">
             <h4>Bekväm $200</h4>
@@ -244,7 +260,9 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -252,7 +270,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -260,7 +280,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -268,7 +290,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -276,7 +300,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -284,7 +310,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -292,7 +320,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -300,7 +330,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -308,7 +340,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -316,7 +350,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -324,7 +360,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -332,7 +370,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>
@@ -340,7 +380,9 @@
         </div>
         <div class="swiper-slide">
           <div class="sec_Swiper ">
-            <img src="assets/img/tt.jpg" alt="" class="card-img">
+            <a href="assets/img/tt.jpg" class="" data-fancybox="gallery2">
+              <img src="assets/img/tt.jpg" alt="" class="card-img">
+            </a>
             <div class="ps-3 mt-3">
               <h4>Bekväm $200</h4>
             </div>

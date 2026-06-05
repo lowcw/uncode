@@ -192,6 +192,11 @@ window.onscroll = function () {
 
     
 };
+Fancybox.bind( "[data-fancybox='gallery'], [data-fancybox='gallery2']", {
+    animated: true,
+    showClass: "f-fadeIn",
+    hideClass: "f-fadeOut"
+});
 
 
 document.addEventListener('DOMContentLoaded', function () {
