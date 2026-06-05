@@ -329,7 +329,7 @@
                 <h2 style="color:#FFFFFF;">Ready to rock together?!</h2>
             </div>
             <div class="col-12 mt-4">
-                <button class="btn-lp px-4 py-3"  onclick="window.location.href='../index.php'">Contact Us</button>
+                <button class="btn-lp px-4 py-3"  onclick="window.location.href='/uncode/contact'">Contact Us</button>
             </div>
         </div>
     </div>

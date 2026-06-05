@@ -42,20 +42,20 @@
             <div class="cols-md-4 mb-5 mb-md-0">
               <h4 class="fw-bold mb-4 mb-md-4">Navigation</h4>
               <ul class="nav d-flex flex-column footer_nav">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">About Us</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Service</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Portfolio</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Contact Us</a></li>
+                <li class="nav-item mb-2"><a href="/uncode" class="nav-link p-0 footer_nav ">Home</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/about" class="nav-link p-0 footer_nav ">About Us</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/service" class="nav-link p-0 footer_nav ">Service</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/portfolio" class="nav-link p-0 footer_nav ">Portfolio</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/contact" class="nav-link p-0 footer_nav ">Contact Us</a></li>
               </ul>
             </div>
             <div class="cols-md-4 mb-5 mb-md-0">
               <h4 class="fw-bold mb-4 mb-md-4">Legal </h4>
               <ul class="nav d-flex flex-column footer_nav">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Privacy Policy</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Terms of Use</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav ">Cookie Policy</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_nav">Accessibility</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/coming-soon" class="nav-link p-0 footer_nav ">Privacy Policy</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/coming-soon" class="nav-link p-0 footer_nav ">Terms of Use</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/coming-soon" class="nav-link p-0 footer_nav ">Cookie Policy</a></li>
+                <li class="nav-item mb-2"><a href="/uncode/coming-soon" class="nav-link p-0 footer_nav">Accessibility</a></li>
               </ul>
             </div>
             <div class="cols-md-4 mb-5 mb-md-0">
