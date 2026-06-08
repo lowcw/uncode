@@ -4,10 +4,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <?php include('inc/css.php'); ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php 
+  include('inc/css.php'); ?>
+
 <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     <?php include('inc/header.php'); ?>
@@ -41,7 +42,7 @@
             </h3>
           </div>
           <div class="bottom-end">
-            <a href="contact" class="shake-btn link-offset-3 text-black">
+            <a href="coming-soon" class="shake-btn link-offset-3 text-black">
               Our Manifesto →
             </a>
           </div>
@@ -447,6 +448,5 @@
 
 <?php include('inc/footer.php'); ?>
 <?php include('inc/js.php'); ?>
-<script src="assets/js/custom.js"></script>
 </body>
 </html>

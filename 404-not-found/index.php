@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <?php include('../inc/css.php'); ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php
+  $page = '404-not-found'; 
+  include('../inc/css.php'); ?>
 <!-- My CSS -->
-    <link rel="stylesheet" href="/uncode/assets/css/style.css">
-    <link rel="stylesheet" href="/uncode/assets/css/404-not-found.css">
     
 </head>
 <body>

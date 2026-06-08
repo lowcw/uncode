@@ -4,11 +4,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <?php include('../inc/css.php'); ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php 
+  $page = 'coming-soon';
+  include('../inc/css.php'); ?>
+
 <!-- My CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/coming-soon.css">
+
 </head>
 <body>
 
@@ -61,7 +62,10 @@
     </div>
 </section>
 
-<?php include('../inc/js.php'); ?>
-<script src="../assets/js/coming-soon.js"></script>
+<?php 
+$page = 'coming-soon';
+include(__DIR__ . '/../inc/js.php');
+?>
+
 </body>
 </html>
